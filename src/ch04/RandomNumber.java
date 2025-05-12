@@ -4,8 +4,11 @@ public class RandomNumber {
     public static void main(String[] args) {
         // API, Math.random() double 타입 리턴,0.0000000 ~ 0.9999999, 절대 1이 안 나온다.
         // 실수타입인 더블타입을(?) 랜덤하게 얻을 수 있다
+        // 그러므로 *10 을 하면 10만큼 안 되고 *9 라고 봐야한다. (곱할 수 -1로 곱해야함)
 
         System.out.println( Math.random() );
+        double v = Math.random();
+        System.out.println( v );
 
         double value = 0.99999;
         double result = value * 10; // 9.9999
