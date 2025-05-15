@@ -8,7 +8,7 @@ public class Mission05 {
 
 
         for (int i = 0; i < starCount; i++) {
-            System.out.print("*");
+            System.out.print("♥");
 
             // starCount = 3;
             // ***
