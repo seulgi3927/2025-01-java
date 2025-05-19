@@ -8,18 +8,19 @@ public class UpAndDownGame {
         int answer = (int)(Math.random() * 100.0) + 1; // 1~100 사이 랜덤값
         System.out.println("answer: " + answer); // 32가 나왔다고 보자.
 
-        while (answer < 32) {
+ /*       while (answer <= 32) {
             System.out.println("Up!");
+            break;
 
-            if (answer > 32) {
+            if (answer >= 32) {
                 System.out.print("Down!");
+                break;
             } else if (answer == 32) {
                 System.out.print("정답");
                 break;
             }
         }
-
-
+*/
 
 
 
